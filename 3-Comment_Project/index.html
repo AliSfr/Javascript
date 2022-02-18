@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Yorumlar </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Yorumlar</h1>
+    <hr>
+    <div id = "card-body">
+        <form id = "comment_form" name="form">
+            <input type="text" name = "writer" id = "writer" class = "writer_input" placeholder="Yazar">
+            <textarea name="content" id="content" placeholder="İçerik"></textarea>
+            <button id="form_button" type="submit"> Yorum At</button>
+        </form>
+    </div>
+    <div id = "comment_body">
+         <!-- <div class = "comment">
+            <ul>
+                <li class = "comment_writer"> Yazar </li>
+                <hr class = "comment_hr">
+                <li class = "comment_content"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio molestias laboriosam repellendus molestiae tempora nemo ipsa modi? Unde, architecto blanditiis accusamus, tempora iste ducimus natus quo itaque dolores deserunt id! </li>
+                <li><a href="#" class = "delete-comment"> Yorumu Sil</a></li>
+            </ul>
+        </div> -->
+    </div>
+    <a href="#" id = "clear-comments"> Tüm Yorumları Silin</a>
+    </div>
+    <script src="comment.js"></script>
+    <script src="storage.js"></script>
+    <script src="ui.js"></script>
+    <script src="project.js"></script>
+</body>
+</html>
